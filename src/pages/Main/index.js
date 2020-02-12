@@ -48,9 +48,6 @@ const Main = () => {
         translateY.setOffset(offset);
         translateY.setValue(0);
       })
-
-      // translateY.setOffset(offset);
-      // translateY.setValue(0);
     }
   }
 
@@ -59,7 +56,6 @@ const Main = () => {
       <Header />
       <Content>
         <Menu translateY={translateY} />
-
         <PanGestureHandler onGestureEvent={animatedEvent} onHandlerStateChange={onHandlerStateChange}>
           <Card style={{
             transform: [{
@@ -85,8 +81,6 @@ const Main = () => {
             </CardFooter>
           </Card>
         </PanGestureHandler>
-
-
       </Content>
       <Tabs translateY={translateY} />
     </Container>

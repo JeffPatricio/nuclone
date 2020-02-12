@@ -8,7 +8,7 @@ const Header = () => {
     <Container>
       <Top>
         <Logo source={logo} />
-        <Title>Jefferson</Title>
+        <Title>Jefferson Patricio</Title>
       </Top>
       <Icon name='keyboard-arrow-down' size={20} color='#FFF' />
     </Container>
